@@ -1,0 +1,46 @@
+server:
+    port: 6666
+    servlet:
+        context-path: /items
+spring:
+    boot:
+      admin:
+        client:
+          url:
+          - http://localhost:9090
+          instance:
+            name: AdminMonitoringServer
+    application:
+        name: Items 
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/Restaurant?createDatabaseIfNotExist=true
+        password: root
+        username: root
+    jpa:
+        generate-ddl: true
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
+        show-sql: true
+    output:
+        ansi:
+            enabled: always
+#logging:
+#    file:
+#        name: ItemsLogging.log
+#    level:
+#        root: INFO
+#    pattern:
+#        console: '"%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+        
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    endpoint:
+        health:
+            show-details: always

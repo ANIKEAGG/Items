@@ -1,0 +1,75 @@
+2023-10-06T09:23:03.655+05:30  WARN 16824 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h53m56s510ms758µs200ns).
+2023-10-06T09:27:22.306+05:30  INFO 16824 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-06T09:27:23.054+05:30  INFO 16824 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-06T09:27:23.117+05:30  INFO 16824 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/items]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-06T09:27:23.431+05:30  INFO 16824 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-06T09:27:23.617+05:30  INFO 16824 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-06T09:27:23.790+05:30  INFO 16824 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-06T10:11:15.766+05:30  INFO 24916 --- [restartedMain] com.restrao.items.ItemsApplication       : Starting ItemsApplication using Java 17.0.7 with PID 24916 (C:\Users\ANIKEAGG\Documents\restaurant\Items\target\classes started by ANIKEAGG in C:\Users\ANIKEAGG\Documents\restaurant\Items)
+2023-10-06T10:11:15.776+05:30  INFO 24916 --- [restartedMain] com.restrao.items.ItemsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T10:11:15.883+05:30  INFO 24916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-06T10:11:15.886+05:30  INFO 24916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-06T10:11:18.839+05:30  INFO 24916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-06T10:11:19.005+05:30  INFO 24916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2023-10-06T10:11:21.398+05:30  INFO 24916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6666 (http)
+2023-10-06T10:11:21.422+05:30  INFO 24916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T10:11:21.422+05:30  INFO 24916 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T10:11:21.603+05:30  INFO 24916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/items]  : Initializing Spring embedded WebApplicationContext
+2023-10-06T10:11:21.604+05:30  INFO 24916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5716 ms
+2023-10-06T10:11:22.433+05:30  INFO 24916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-06T10:11:22.628+05:30  INFO 24916 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-06T10:11:22.632+05:30  INFO 24916 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-06T10:11:22.993+05:30  INFO 24916 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-06T10:11:23.441+05:30  INFO 24916 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-06T10:11:23.496+05:30  INFO 24916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-06T10:11:24.251+05:30  INFO 24916 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e1732fc
+2023-10-06T10:11:24.255+05:30  INFO 24916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-06T10:11:25.211+05:30  INFO 24916 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-06T10:11:27.195+05:30  INFO 24916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-06T10:11:27.383+05:30  INFO 24916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-06T10:11:29.478+05:30  WARN 24916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-06T10:11:32.697+05:30  WARN 24916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-10-06T10:11:32.721+05:30  INFO 24916 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-10-06T10:11:32.993+05:30  INFO 24916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6666 (http) with context path '/items'
+2023-10-06T10:11:33.036+05:30  INFO 24916 --- [restartedMain] com.restrao.items.ItemsApplication       : Started ItemsApplication in 18.407 seconds (process running for 20.802)
+2023-10-06T10:11:33.587+05:30  INFO 24916 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/items]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T10:11:33.587+05:30  INFO 24916 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T10:11:33.590+05:30  INFO 24916 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-06T10:17:30.466+05:30  INFO 24916 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-06T10:17:30.810+05:30  INFO 24916 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-06T10:17:30.832+05:30  INFO 24916 --- [Thread-1] o.a.c.c.C.[Tomcat].[localhost].[/items]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-06T10:17:30.980+05:30  INFO 24916 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-06T10:17:31.093+05:30  INFO 24916 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-06T10:17:31.197+05:30  INFO 24916 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-06T10:17:31.704+05:30  INFO 24916 --- [restartedMain] com.restrao.items.ItemsApplication       : Starting ItemsApplication using Java 17.0.7 with PID 24916 (C:\Users\ANIKEAGG\Documents\restaurant\Items\target\classes started by ANIKEAGG in C:\Users\ANIKEAGG\Documents\restaurant\Items)
+2023-10-06T10:17:31.706+05:30  INFO 24916 --- [restartedMain] com.restrao.items.ItemsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T10:17:32.937+05:30  INFO 24916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-06T10:17:32.969+05:30  INFO 24916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2023-10-06T10:17:33.591+05:30  INFO 24916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6666 (http)
+2023-10-06T10:17:33.593+05:30  INFO 24916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T10:17:33.593+05:30  INFO 24916 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T10:17:33.664+05:30  INFO 24916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/items]  : Initializing Spring embedded WebApplicationContext
+2023-10-06T10:17:33.664+05:30  INFO 24916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1950 ms
+2023-10-06T10:17:34.165+05:30  INFO 24916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-06T10:17:34.187+05:30  INFO 24916 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-06T10:17:34.188+05:30  INFO 24916 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-06T10:17:34.191+05:30  INFO 24916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-06T10:17:34.254+05:30  INFO 24916 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75936ecc
+2023-10-06T10:17:34.255+05:30  INFO 24916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-06T10:17:34.283+05:30  INFO 24916 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-06T10:17:34.367+05:30  INFO 24916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-06T10:17:34.459+05:30  INFO 24916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-06T10:17:35.753+05:30  WARN 24916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-06T10:17:37.963+05:30  WARN 24916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-10-06T10:17:37.989+05:30  INFO 24916 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-10-06T10:17:38.122+05:30  INFO 24916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6666 (http) with context path '/items'
+2023-10-06T10:17:38.152+05:30  INFO 24916 --- [restartedMain] com.restrao.items.ItemsApplication       : Started ItemsApplication in 6.557 seconds (process running for 385.919)
+2023-10-06T10:17:38.162+05:30  INFO 24916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-06T10:17:55.971+05:30  INFO 24916 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-06T10:17:55.974+05:30  INFO 24916 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-06T10:17:55.978+05:30  INFO 24916 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-06T10:17:55.980+05:30  INFO 24916 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-06T10:17:56.008+05:30  INFO 24916 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-06T10:17:56.019+05:30  INFO 24916 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-06T10:17:56.022+05:30  INFO 24916 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-06T10:17:56.037+05:30  INFO 24916 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
